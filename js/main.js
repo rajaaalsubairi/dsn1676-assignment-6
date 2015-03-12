@@ -36,8 +36,8 @@ $circle.on('webkitAnimationEnd animationend', function () {
 
 $btnAppend.on('click', function() {
 
-        var $li = $('<li>').html('New List Item');
+    var $li = $('<li>').html('New List Item');
     
-        $list.prepend($li);
-        $li.toggleClass ('js-list-append');
+    $list.prepend($li);
+    $li.toggleClass ('js-list-append');
 });
