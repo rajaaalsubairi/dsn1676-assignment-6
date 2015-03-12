@@ -62,6 +62,7 @@ div {
   top: 50%;
 
   background-color: yellow;
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 
   color: darkgoldenrod;
